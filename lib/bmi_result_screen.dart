@@ -87,17 +87,14 @@ class BmiResultScreen extends StatelessWidget {
                             children: [
                               Icon(Icons.label, size: 40, color: Colors.blue), // Icon for category
                               SizedBox(width: 10),
-                              // Using Expanded here to prevent overflow
-                              Expanded(
-                                child: Text(
-                                  "Category : $category", // Display category
-                                  style: TextStyle(
-                                    fontSize: 20.0, // Adjust font size if necessary
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black,
-                                  ),
-                                  softWrap: true, // Allow soft wrapping
+                              Text(
+                                "Category : $category", // Display category
+                                style: TextStyle(
+                                  fontSize: 20.0, // Adjust font size if necessary
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black,
                                 ),
+                                softWrap: true, // Allow soft wrapping
                               ),
                             ],
                           ),
