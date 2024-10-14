@@ -13,7 +13,7 @@ A Flutter-based Body Mass Index (BMI) Calculator that allows users to calculate 
 
 <!-- Include some screenshots of your app here -->
 
-<img src="screenshots/screenshot3.png" width="300"> <img src="screenshots/screenshot1.png" width="300"> <img src="screenshots/screenshot2.png" width="300">
+<img src="screenshots/screenshot1.png" width="300"> <img src="screenshots/screenshot2.png" width="300">
 
 ## Installation
 
