@@ -85,16 +85,18 @@ class BmiResultScreen extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Icon(Icons.label, size: 40, color: Colors.blue), // Icon for category
+                              Center(child: Icon(Icons.label, size: 40, color: Colors.blue)), // Icon for category
                               SizedBox(width: 10),
-                              Text(
-                                "Category : $category", // Display category
-                                style: TextStyle(
-                                  fontSize: 20.0, // Adjust font size if necessary
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
+                              Expanded(
+                                child: Text(
+                                  textAlign: TextAlign.center,
+                                  "Category : $category", // Display category
+                                  style: TextStyle(
+                                    fontSize: 20.0, // Adjust font size if necessary
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
                                 ),
-                                softWrap: true, // Allow soft wrapping
                               ),
                             ],
                           ),
