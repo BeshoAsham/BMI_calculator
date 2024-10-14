@@ -1,0 +1,35 @@
+name: "bmi_calculator"
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  # Add the flutter_launcher_icons package to change app icons
+  flutter_launcher_icons: ^0.10.0 # Check for the latest version
+
+# Configuration for the flutter_launcher_icons package
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png" # Update this path as needed
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
